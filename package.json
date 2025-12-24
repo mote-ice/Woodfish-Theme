@@ -59,26 +59,26 @@
         "title": "开启/关闭 Woodfish 发光",
         "category": "Woodfish Theme"
       },
-        {
-          "command": "woodfish-theme.autoConfigureRainbowCursor",
-          "title": "启动彩色光标自动配置",
-          "category": "Woodfish Theme"
-        },
-        {
-          "command": "woodfish-theme.toggleGlassEffect",
-          "title": "开启/关闭毛玻璃效果",
-          "category": "Woodfish Theme"
-        },
-        {
-          "command": "woodfish-theme.toggleRainbowCursor",
-          "title": "开启/关闭彩色光标",
-          "category": "Woodfish Theme"
-        },
-        {
-          "command": "woodfish-theme.completeUninstall",
-          "title": "彻底停用 Woodfish 主题",
-          "category": "Woodfish Theme"
-        }
+      {
+        "command": "woodfish-theme.autoConfigureRainbowCursor",
+        "title": "启动彩色光标自动配置",
+        "category": "Woodfish Theme"
+      },
+      {
+        "command": "woodfish-theme.toggleGlassEffect",
+        "title": "开启/关闭毛玻璃效果",
+        "category": "Woodfish Theme"
+      },
+      {
+        "command": "woodfish-theme.toggleRainbowCursor",
+        "title": "开启/关闭彩色光标",
+        "category": "Woodfish Theme"
+      },
+      {
+        "command": "woodfish-theme.completeUninstall",
+        "title": "彻底停用 Woodfish 主题",
+        "category": "Woodfish Theme"
+      }
     ],
     "configuration": {
       "title": "Woodfish Theme",
@@ -130,10 +130,12 @@
     "clean": "rimraf *.vsix"
   },
   "devDependencies": {
-    "@types/vscode": "^1.74.0",
     "@types/node": "16.x",
-    "eslint": "^8.28.0",
+    "@types/vscode": "^1.74.0",
     "@vscode/test-electron": "^2.2.0",
+    "@vscode/vsce": "^3.7.1",
+    "eslint": "^9.39.2",
+    "globals": "^16.5.0",
     "vsce": "^2.15.0"
   },
   "repository": {
